@@ -1,0 +1,8 @@
+// Estoy utilizando la extensión 'Rest Client' para hacer peticiones HTTP.
+// Creando un usuario: "mariano" 
+POST http://localhost:3001/authenticate 
+Content-Type: application/json
+
+{
+    "username": "mariano"
+}
