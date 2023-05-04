@@ -7,12 +7,12 @@ import PropTypes from 'prop-types';
 
 const ChatsPage = (props) => {
     // const chatProps = useMultiChatLogic('aca69fca-9610-46b0-9d00-ae2fbec1a47c', props.user.username, props.user.secret)
-    return <div style={{ height: '200vh' }}>
+    return <div style={{ height: '100vh' }}>
         <PrettyChatWindow
             projectId="aca69fca-9610-46b0-9d00-ae2fbec1a47c"
             username={props.user.username}
             secret={props.user.secret}
-            style={{ height: '100vh' }}
+            style={{ height: '100%' }}
         />
     </div>
 }
